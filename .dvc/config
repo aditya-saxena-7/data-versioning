@@ -1,0 +1,4 @@
+[core]
+    remote = cheese_dataset
+['remote "cheese_dataset"']
+    url = gs://aditya-saxena-hw2-data-versioning/dvc_store
