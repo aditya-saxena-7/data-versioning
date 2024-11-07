@@ -20,6 +20,7 @@ docker run --rm --name data-version-cli -ti \
 --device /dev/fuse \
 -v "$BASE_DIR":/app \
 -v "$SECRETS_DIR":/secrets \
+-v "$BASE_DIR/cheese_dataset":/app/cheese_dataset \
 -e GOOGLE_APPLICATION_CREDENTIALS=$GOOGLE_APPLICATION_CREDENTIALS \
 -e GCP_PROJECT=$GCP_PROJECT \
 -e GCP_ZONE=$GCP_ZONE \
